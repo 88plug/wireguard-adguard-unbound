@@ -66,7 +66,7 @@ This setup provides:
 
 ### Configuration
 
-- Access the AdGuard Home web panel at `http://<host_ip>:80`.
+- Access the AdGuard Home web panel at `http://<host_ip>:3000`.
 - Access the WG-Easy web panel at `http://<host_ip>:51821`.
 
 #### Using Root DNS Servers
