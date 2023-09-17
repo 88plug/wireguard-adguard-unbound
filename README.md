@@ -66,23 +66,20 @@ This setup provides:
 
 ### Configuration
 
-#### AdGuard Home
-
-Modify the AdGuard Home configuration files in `./adguard/opt-adguard-conf`.
-
-#### Unbound
-
-Edit Unbound configurations in `./unbound`.
-
-#### WG-Easy
-
-Find WG-Easy configurations in `~/.wg-easy`.
+- Access the AdGuard Home web panel at `http://<host_ip>:80`.
+- Access the WG-Easy web panel at `http://<host_ip>:51821`.
 
 #### Using Root DNS Servers
 
-To utilize root DNS servers, set both **Upstream DNS servers** and **Bootstrap DNS servers** to `127.0.0.1:5053`. This routes your DNS queries through Unbound, configured to use root DNS servers for lookups.
+To make full use of root DNS servers for DNS resolution, ensure to set both the **Upstream DNS servers** and **Bootstrap DNS servers** in your AdGuard Home or system settings to `127.0.0.1:5053`. This will route your DNS queries to Unbound, which is configured to leverage root DNS servers for DNS lookups.
+- **Upstream DNS Servers**: Set this to `127.0.0.1:5053` to use root DNS servers.
+- **Bootstrap DNS Servers**: Also set this to `127.0.0.1:5053` for the same reason.
+By setting both the Upstream and Bootstrap DNS servers to `127.0.0.1:5053`, you ensure that all DNS queries are securely and accurately resolved using the root DNS servers.
 
 ## Detailed Usage Guide
 
-- Access the AdGuard Home web panel at `http://<host_ip>:80`.
-- Access the WG-Easy web panel at `http://<host_ip>:51821`.
+AdGuard Home configuration files in `./adguard/opt-adguard-conf`.
+Unbound configurations in `./unbound`.
+WG-Easy configurations in `~/.wg-easy`.
+
+
