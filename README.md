@@ -13,7 +13,7 @@
 
 ## Overview
 
-Welcome to the AdGuard-Unbound-WG-Easy project, a comprehensive Docker Compose setup designed for robust network security and privacy. This repository includes configurations for AdGuard Home, Unbound, and WireGuard via WG-Easy.
+Welcome to the Wireguard - AdGuard - Unbound project, a comprehensive Docker Compose setup designed for robust network security and privacy. This repository includes configurations for AdGuard Home, Unbound, and WireGuard via WG-Easy.
 
 ## Features
 
