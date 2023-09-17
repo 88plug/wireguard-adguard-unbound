@@ -48,7 +48,7 @@ This setup provides:
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd AdGuard-Unbound-WG-Easy
+    cd wireguard-adguard-unbound
     ```
 
 3. **Update Essential Variables**
