@@ -1,4 +1,4 @@
-# Wireguard - AdGuard - Unbound: All-In-One Network Security and Privacy Solution
+# Wireguard - AdGuard - Unbound: Root Server Edition
 
 ## Table of Contents
 
